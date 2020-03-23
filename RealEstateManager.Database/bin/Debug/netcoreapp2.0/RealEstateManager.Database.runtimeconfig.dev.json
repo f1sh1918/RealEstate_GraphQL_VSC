@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/afischer/.dotnet/store/|arch|/|tfm|",
+      "/Users/afischer/.nuget/packages"
+    ]
+  }
+}
