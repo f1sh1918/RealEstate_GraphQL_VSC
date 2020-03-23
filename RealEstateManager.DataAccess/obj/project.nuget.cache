@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GySYqSZekjnLcM5glkQ5S3LYK6nb8odgd09yltiyDWjmiU8kATdGbsJbv1bZZpzUOrMB2E5JnEXrIzvnSiifBA==",
+  "success": true,
+  "projectFilePath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "/Users/afischer/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
