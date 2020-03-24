@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RealEstateManager.Database;
+using RealEstateManager.DataAccess.Repositories.Contracts;
 
 namespace RealEstateManager.Api
 {
@@ -26,6 +27,8 @@ namespace RealEstateManager.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //Add Transient means that this repo will provides to every controller and every services
+            services.AddTransient<IPropertyRepository, PropertyRepository>();
             services.AddDbContext<RealEstateContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:RealEstateDb"]));
         }
 

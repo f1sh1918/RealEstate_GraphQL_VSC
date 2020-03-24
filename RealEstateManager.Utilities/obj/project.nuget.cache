@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7a2jbxR2dRpe+eCfh4nCPmcLiBhHDH35nIvMR1iMnvvSZRZ+27o+3Eo0Jcxd2ZOVq6KXmT6fEE3qeK95nFcQQ==",
+  "dgSpecHash": "SZJABV9tiq1HsuLli0ODRCkhsYqGUA5CvVbwv9VQt2+XGJV7RM9tmH5qWPiE8cB/Cokk79NFAXcWfpudlteDsg==",
   "success": true,
   "projectFilePath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj",
   "expectedPackageFiles": [
-    "/Users/afischer/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/afischer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/microsoft.netcore.app/2.0.0/microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/microsoft.netcore.dotnetapphost/2.0.0/microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.0.0/microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/microsoft.netcore.dotnethostresolver/2.0.0/microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/afischer/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []

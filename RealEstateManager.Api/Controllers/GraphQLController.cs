@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
+using RealEstateManager.Utilities;
 namespace RealEstateManager.Api.Controllers
 {
 

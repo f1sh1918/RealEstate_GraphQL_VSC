@@ -1220,7 +1220,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2794,6 +2794,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "RealEstateManager.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "RealEstateManager.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RealEstateManager.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealEstateManager.DataAccess.dll": {}
+        }
+      },
       "RealEstateManager.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -2807,6 +2820,19 @@
         },
         "runtime": {
           "bin/placeholder/RealEstateManager.Database.dll": {}
+        }
+      },
+      "RealEstateManager.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/RealEstateManager.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealEstateManager.Utilities.dll": {}
         }
       }
     }
@@ -4144,10 +4170,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4170,8 +4196,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -8518,17 +8545,29 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "RealEstateManager.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj",
+      "msbuildProject": "../RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj"
+    },
     "RealEstateManager.Database/1.0.0": {
       "type": "project",
       "path": "../RealEstateManager.Database/RealEstateManager.Database.csproj",
       "msbuildProject": "../RealEstateManager.Database/RealEstateManager.Database.csproj"
+    },
+    "RealEstateManager.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../RealEstateManager.Utilities/RealEstateManager.Utilities.csproj",
+      "msbuildProject": "../RealEstateManager.Utilities/RealEstateManager.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "GraphQL >= 2.4.0",
       "Microsoft.EntityFrameworkCore >= 3.1.2",
+      "RealEstateManager.DataAccess >= 1.0.0",
       "RealEstateManager.Database >= 1.0.0",
+      "RealEstateManager.Utilities >= 1.0.0",
       "graphiql >= 1.2.0"
     ]
   },
@@ -8556,8 +8595,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj": {
+              "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj"
+            },
             "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj": {
               "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj"
+            },
+            "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj": {
+              "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj"
             }
           }
         }
