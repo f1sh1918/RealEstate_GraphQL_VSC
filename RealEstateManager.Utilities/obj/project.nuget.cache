@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BFQmpgKBbBfSHy84D08tjDN+wO378Z6wN2A9WKf1C/yZMpGYJlVLAQ6B4iliut/pkJUXjq9mSUz+eWjOML7E0w==",
+  "dgSpecHash": "Z7a2jbxR2dRpe+eCfh4nCPmcLiBhHDH35nIvMR1iMnvvSZRZ+27o+3Eo0Jcxd2ZOVq6KXmT6fEE3qeK95nFcQQ==",
   "success": true,
   "projectFilePath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj",
   "expectedPackageFiles": [
     "/Users/afischer/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/afischer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/afischer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/afischer/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
