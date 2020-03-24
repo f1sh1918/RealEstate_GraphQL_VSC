@@ -17,19 +17,22 @@
           "/Users/afischer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.0": {
             "projectReferences": {
               "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj": {
                 "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj"
               },
               "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj": {
                 "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj"
+              },
+              "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/RealEstateManager.Types.csproj": {
+                "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/RealEstateManager.Types.csproj"
               },
               "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj": {
                 "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Utilities/RealEstateManager.Utilities.csproj"
@@ -44,15 +47,21 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.0": {
           "dependencies": {
             "GraphQL": {
               "target": "Package",
               "version": "[2.4.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
             },
             "graphiql": {
               "target": "Package",
@@ -69,14 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
@@ -181,6 +182,67 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/RealEstateManager.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/RealEstateManager.Types.csproj",
+        "projectName": "RealEstateManager.Types",
+        "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/RealEstateManager.Types.csproj",
+        "packagesPath": "/Users/afischer/.nuget/packages/",
+        "outputPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/afischer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj": {
+                "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

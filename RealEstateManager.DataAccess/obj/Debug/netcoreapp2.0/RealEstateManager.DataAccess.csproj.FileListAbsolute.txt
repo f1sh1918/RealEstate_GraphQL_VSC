@@ -1,0 +1,12 @@
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/bin/Debug/netcoreapp2.0/RealEstateManager.DataAccess.deps.json
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/bin/Debug/netcoreapp2.0/RealEstateManager.DataAccess.dll
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/bin/Debug/netcoreapp2.0/RealEstateManager.DataAccess.pdb
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/bin/Debug/netcoreapp2.0/RealEstateManager.Database.dll
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/bin/Debug/netcoreapp2.0/RealEstateManager.Database.pdb
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.csprojAssemblyReference.cache
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.csproj.CoreCompileInputs.cache
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.AssemblyInfoInputs.cache
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.AssemblyInfo.cs
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.csproj.CopyComplete
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.dll
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/obj/Debug/netcoreapp2.0/RealEstateManager.DataAccess.pdb
