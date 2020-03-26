@@ -10,3 +10,5 @@
 /Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/obj/Debug/netcoreapp2.0/RealEstateManager.Types.csproj.CopyComplete
 /Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/obj/Debug/netcoreapp2.0/RealEstateManager.Types.dll
 /Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/obj/Debug/netcoreapp2.0/RealEstateManager.Types.pdb
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/bin/Debug/netcoreapp2.0/RealEstateManager.DataAccess.dll
+/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Types/bin/Debug/netcoreapp2.0/RealEstateManager.DataAccess.pdb

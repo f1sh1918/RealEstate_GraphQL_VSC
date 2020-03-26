@@ -4267,6 +4267,7 @@
       "RealEstateManager.Types/1.0.0": {
         "dependencies": {
           "GraphQL": "2.4.0",
+          "RealEstateManager.DataAccess": "1.0.0",
           "RealEstateManager.Database": "1.0.0"
         },
         "runtime": {

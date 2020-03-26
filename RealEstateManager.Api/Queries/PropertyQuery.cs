@@ -1,6 +1,6 @@
 using GraphQL.Types;
 using RealEstateManager.DataAccess.Repositories;
-using RealEstateManager.Types;
+using RealEstateManager.Types.Property;
 namespace RealEstateManager.Api.Queries
 {
     public class PropertyQuery : ObjectGraphType

@@ -10,9 +10,11 @@ using GraphiQl;
 
 using GraphQL;
 using RealEstateManager.Api.Queries;
-using RealEstateManager.Types;
+using RealEstateManager.Types.Property;
+using RealEstateManager.Types.Payment;
 using GraphQL.Types;
 using RealEstateManager.Api.Schema;
+using RealEstateManager.DataAccess.Repositories.Contracts;
 
 namespace RealEstateManager.Api
 {
@@ -31,11 +33,18 @@ namespace RealEstateManager.Api
             services.AddMvc();
             //Add Transient means that this repo will provides to every controller and every services
             services.AddTransient<IPropertyRepository, PropertyRepository>();
+            services.AddTransient<IPaymentRepository, PaymentRepository>();
+            //Add Db Context with valid ConnectionString
             services.AddDbContext<RealEstateContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:RealEstateDb"]));
+            //Add Document Executer
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
+            //Add Queries
             services.AddSingleton<PropertyQuery>();
+            //Add Types
             services.AddSingleton<PropertyType>();
+            services.AddSingleton<PaymentType>();
             var sp = services.BuildServiceProvider();
+            //Add Schema
             services.AddSingleton<ISchema>(new RealEstateSchema(new FuncDependencyResolver(type => sp.GetService(type))));
 
         }

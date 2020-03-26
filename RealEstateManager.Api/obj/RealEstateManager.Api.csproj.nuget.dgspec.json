@@ -225,6 +225,9 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
+              "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj": {
+                "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.DataAccess/RealEstateManager.DataAccess.csproj"
+              },
               "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj": {
                 "projectPath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Database/RealEstateManager.Database.csproj"
               }

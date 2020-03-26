@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qWuwZWfrPw5XGBV35OvI1zRuzCq7KmKjFYwNCinf/pO6AKh7n7net6HlplpQ+l2g/IuOLQWoHcqtnWM9UU2tsQ==",
+  "dgSpecHash": "DmfvW2a3oWegsGRFqhxL4L7KzQ+lcc0IeSFmpOiwINwYv86aiios4aNWjgJZbXJw6FPsFXkM/VKsFve7VMuDgg==",
   "success": true,
   "projectFilePath": "/Users/afischer/Projects/GraphQL_RealEstate_VSC/RealEstateManager.Api/RealEstateManager.Api.csproj",
   "expectedPackageFiles": [

@@ -28,7 +28,7 @@ namespace RealEstateManager.Api.Controllers
             {
                 throw new ArgumentNullException(nameof(query));
             }
-            var inputs = query.Variables?.ToInputs();
+            var inputs = query.Variables.ToInputs();
             var executionOptions = new ExecutionOptions
             {
                 Schema = _schema,
@@ -39,7 +39,7 @@ namespace RealEstateManager.Api.Controllers
             var result = await _documentExecuter
             .ExecuteAsync(executionOptions);
 
-            if(result.Errors.Any()) {
+            if(result.Errors?.Count > 0) {
                 return BadRequest(result);
             }
             return Ok(result);

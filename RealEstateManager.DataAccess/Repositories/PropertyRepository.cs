@@ -15,7 +15,7 @@ public class PropertyRepository : IPropertyRepository
     }
 public IEnumerable<Property> GetAll()
 {
-    throw new NotImplementedException();
+    return _dbContext.Properties;
 }
 }
 }
